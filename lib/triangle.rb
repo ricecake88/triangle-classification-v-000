@@ -28,6 +28,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
+      "Not a valid side"
     end
   end  
 end
