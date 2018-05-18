@@ -11,6 +11,7 @@ class Triangle
     else side1 == side2 or side2 == side3 or side1 == side3
       :isosceles
     else side1 != side2 and side2 != side3 and side1 != side3
+      :scalene
     end
   end
   
