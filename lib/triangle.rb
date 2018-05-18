@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :side1, :side2, :side3
   
   def initialize(attributes)
     attributes.each {|key,value| (("#{key}="), value)
